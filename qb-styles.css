@@ -1,0 +1,398 @@
+/* github.com/phphleb/qb-styles v1.0  (c)Foma Tuturov */
+
+
+/* Adaptation in width (less than 770px is the width of the parent element, more than 770px is the width of the content with a maximum of 1200px) */
+.qb-width-resp {
+    width: auto;
+}
+
+/* Initial Visibility of Elements */
+.qb-hide, .qb-none {
+    display: none;
+}
+
+.qb-block {
+    display: block;
+}
+
+.qb-inline-block {
+    display: inline-block;
+    display: -moz-inline-block;
+}
+
+.qb-inline {
+    display: inline;
+}
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+    .qb-down-lg-none {
+        display: none;
+    }
+
+    .qb-down-lg-block {
+        display: block;
+    }
+
+    .qb-down-lg-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-down-lg-inline {
+        display: inline;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+    .qb-down-md-none {
+        display: none;
+    }
+
+    .qb-down-md-block {
+        display: block;
+    }
+
+    .qb-down-md-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-down-md-inline {
+        display: inline;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 769px) {
+
+    .qb-down-sm-none {
+        display: none;
+    }
+
+    .qb-down-sm-block {
+        display: block;
+    }
+
+    .qb-down-sm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-down-sm-inline {
+        display: inline;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+    .qb-down-esm-none {
+        display: none;
+    }
+
+    .qb-down-esm-block {
+        display: block;
+    }
+
+    .qb-down-esm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-down-esm-inline {
+        display: inline;
+    }
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+    .qb-down-nn-none {
+        display: none;
+    }
+
+    .qb-down-nn-block, .qb-block {
+        display: block;
+    }
+
+    .qb-down-nn-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-down-nn-inline {
+        display: inline;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+    .qb-up-nn-none {
+        display: none;
+    }
+
+    .qb-up-nn-block {
+        display: block;
+    }
+
+    .qb-up-nn-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-up-nn-inline {
+        display: inline;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+    .qb-up-esm-none {
+        display: none;
+    }
+
+    .qb-up-esm-block {
+        display: block;
+    }
+
+    .qb-up-esm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-up-esm-inline {
+        display: inline;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 769px) {
+
+    .qb-up-sm-none {
+        display: none;
+    }
+
+    .qb-up-sm-block {
+        display: block;
+    }
+
+    .qb-up-sm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-up-sm-inline {
+        display: inline;
+    }
+
+    .qb-width-resp {
+        max-width: 1200px;
+        width: max-content;
+        min-width: 0;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+    .qb-up-md-none {
+        display: none;
+    }
+
+    .qb-up-md-block {
+        display: block;
+    }
+
+    .qb-up-md-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-up-md-inline {
+        display: inline;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+    .qb-up-lg-none {
+        display: none;
+    }
+
+    .qb-up-lg-block {
+        display: block;
+    }
+
+    .qb-up-lg-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-up-lg-inline {
+        display: inline;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+    .qb-lg-none {
+        display: none;
+    }
+
+    .qb-lg-block {
+        display: block;
+    }
+
+    .qb-lg-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-lg-inline {
+        display: inline;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    .qb-md-none {
+        display: none;
+    }
+
+    .qb-md-block {
+        display: block;
+    }
+
+    .qb-md-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-md-inline {
+        display: inline;
+    }
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 992px) and (min-width: 769px) {
+
+    .qb-sm-none {
+        display: none;
+    }
+
+    .qb-sm-block {
+        display: block;
+    }
+
+    .qb-sm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-sm-inline {
+        display: inline;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 769px) and (min-width: 480px) {
+
+    .qb-esm-none {
+        display: none;
+    }
+
+    .qb-esm-block {
+        display: block;
+    }
+
+    .qb-esm-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-esm-inline {
+        display: inline;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+
+    .qb-nn-none {
+        display: none;
+    }
+
+    .qb-nn-block {
+        display: block;
+    }
+
+    .qb-nn-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-nn-inline {
+        display: inline;
+    }
+}
+
+
+/*  Скрытие/отображение при печати */
+
+@media print {
+
+    .qb-print-none {
+        display: none;
+    }
+
+    .qb-print-block {
+        display: block;
+    }
+
+    .qb-print-inline {
+        display: inline;
+    }
+
+    .qb-print-inline-block {
+        display: inline-block;
+        display: -moz-inline-block;
+    }
+
+    .qb-print-table-column {
+        display: table-column;
+    }
+
+    .qb-print-table-cell {
+        display: table-cell;
+    }
+
+    .qb-print-table {
+        display: table;
+    }
+
+}
+
